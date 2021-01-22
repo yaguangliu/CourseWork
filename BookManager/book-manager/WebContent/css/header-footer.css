@@ -1,0 +1,58 @@
+  body {
+    font-family: "Open Sans",sans-serif;
+  }
+  h1{
+    font-family: "Parisienne",cursive;
+    font-weight: bolder;
+  }
+  h4{
+    font-family: "Parisienne",cursive;
+  }
+  .header-img::after{
+    position: absolute;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: radial-gradient(closest-side, rgba(16,16,16,0.6), rgba(16,16,16,0.7),rgba(16,16,16,0.8));
+  }
+  #header-title{
+  	color:whitesmoke;
+  }
+  #header-title:hover{
+  	color:#ccc;
+  	transform:scale(1.1);
+  }
+  	
+ 
+  .nav-bar,.footer-bar{
+    background-color: #2b5f5f;
+  }
+  .sub-header::after{
+    display: block;
+    content: "";
+    border-top: solid .25em teal;
+    border-radius: 50%;
+    width: 8rem;
+  }
+ 
+
+  .bg-light-green{
+    background-color: #d9eded;
+  }
+ 
+
+  .footer-font{
+    font-size: 0.8rem;
+  }
+
+  @media (min-width: 768px){
+    .ach-bg{
+      background-color: #d9eded;
+    }
+    
+  }
+ 
+
